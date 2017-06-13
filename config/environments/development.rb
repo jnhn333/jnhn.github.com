@@ -1,4 +1,5 @@
 Rails.application.configure do
+  Rails.application.config.action_cable.allowed_request_origins = ['https://rails5-derrick33.c9users.io/']
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on

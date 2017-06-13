@@ -1,6 +1,6 @@
 class CommentsController < ApplicationController
     before_action :authenticate_user!
-    before_action :check_ownership!, only: [:edit, :update, :destroy]
+    before_action :check_ownership!, only: [:destroy]
 
     
     def create
@@ -15,22 +15,6 @@ class CommentsController < ApplicationController
         @comment.destroy
         redirect_back(fallback_location: root_path)
     end
-    
-    def edit
-
-    end
-  
-  def update
-
-    @comment.content = params[:content]
-    
-    if @comment.save
-      redirect_to root_path
-    else
-      render :edit
-    end
-  end
-    
     
     private
         def check_ownership!

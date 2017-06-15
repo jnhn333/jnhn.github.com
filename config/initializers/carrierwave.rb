@@ -1,8 +1,8 @@
 CarrierWave.configure do |config|
   config.storage    = :aws
-  config.aws_bucket = ENV['S3_BUCKET_NAME']
+  config.aws_bucket = ENV['using-heroku']
   config.aws_acl    = :public_read
-  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/using-heroku'
+  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com'
   config.aws_authenticated_url_expiration = 60 * 60 * 24 * 365
 
   config.aws_credentials = {

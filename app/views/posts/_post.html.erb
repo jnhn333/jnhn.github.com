@@ -1,4 +1,5 @@
 <div class="card post">
+
     <div class="card-content">
         <% if post.user.avatar %>
             <img class="circle thumbnail" src="<%= post.user.avatar.thumb.url %> ">
@@ -21,7 +22,7 @@
         </div>
                         <div class="card-image">
                     <% if post.image.url %>
-                        <img src="<%= post.image.url %>">
+                        <%= image_tag("#{post.image}") %>
                     <% end %>
                     
                 </div>

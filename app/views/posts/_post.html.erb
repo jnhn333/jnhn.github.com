@@ -1,9 +1,4 @@
 <div class="card post">
-    <% if if Rails.env == 'production'>
-  storage :aws
-<% else %>
-  storage :file
-<% end %>
     <div class="card-content">
         <% if post.user.avatar %>
             <img class="circle thumbnail" src="<%= post.user.avatar.thumb.url %> ">

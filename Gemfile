@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 gem 'aws-sdk', '~> 2.3'
-
+gem 'fog-aws'
 gem 'carrierwave'
 gem 'carrierwave-aws'
 gem 'mini_magick'

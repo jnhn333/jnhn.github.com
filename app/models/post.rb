@@ -4,5 +4,5 @@ class Post < ApplicationRecord
     has_many :liked_users, through: :likes, source: :user
     has_many :comments
     
-    mount_uploader :image, PostImageUploader
+    mount_uploader :image, S3Uploader
 end

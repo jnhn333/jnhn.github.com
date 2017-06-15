@@ -8,6 +8,7 @@ end
 gem 'aws-sdk', '~> 2.3'
 
 gem 'carrierwave'
+gem 'carrierwave-aws'
 gem 'mini_magick'
 # Rails 5
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'

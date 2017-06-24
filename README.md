@@ -1,7 +1,7 @@
-This is a simple implementation of 'sns' using rubyonrails.
+###This is a simple implementation of 'sns' using rubyonrails.
 
-There is a basic 'sns' function implemented here.
-sign in, sign up, sign out, write comments, posting post, post like, follow, upload image.
+##There is a basic 'sns' function implemented here.
+#sign in, sign up, sign out, write comments, posting post, post like, follow, upload image.
 
 
 
@@ -10,8 +10,8 @@ sign in, sign up, sign out, write comments, posting post, post like, follow, upl
 
 --Controllers
 
-  app/controllers/application_controller.rb
-    ```sign up, account update [:name(user_name), :avatar(user_profile_picture)]```
+  ```app/controllers/application_controller.rb
+    sign up, account update [:name(user_name), :avatar(user_profile_picture)]```
  
   app/controllers/posts_controller.rb
     ```write posts(check authorization before) with image

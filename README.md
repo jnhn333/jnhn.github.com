@@ -44,7 +44,9 @@
 --Uploaders
 
    Using S3 Uploaders.
-   I had tried to using S3 service in AWS, but i didn't have ability to pay. So I tested 1~2 times and shut down my AWS account.
+   I had tried to using S3 service in AWS, but i didn't have ability to pay.
+   I tested 1~2 times and shut down my AWS account.
+   So image upload function is stop.
 ```
 ```
 --Views

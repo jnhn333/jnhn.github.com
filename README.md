@@ -11,14 +11,14 @@ sign in, sign up, sign out, write comments, posting post, post like, follow, upl
 --Controllers
 
   app/controllers/application_controller.rb
-    sign up, account update [:name(user_name), :avatar(user_profile_picture)]
+    ```sign up, account update [:name(user_name), :avatar(user_profile_picture)]```
  
   app/controllers/posts_controller.rb
-    write posts(check authorization before) with image
+    ```write posts(check authorization before) with image
     delete posts(check authorization before) with image
     edit posts(check authorization before) with image
     (current_user.id, params[:content], params[:image])
-    If users succeed posting, act redirect to  root_path
+    If users succeed posting, act redirect to  root_path```
   
   app/controllers/comments_controller.rb
     write comments(check authorization before)

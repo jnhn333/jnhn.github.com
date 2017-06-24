@@ -61,8 +61,10 @@
 
   app/views/posts/_post.html.erb
     If you success to sign in, you can see this page
-    Left side is user's information that sign in now.(profile_picture, count comments,posts,following users and so on)
-    Right side is timeline like facebook. write comments, posts, using function like','follow'. And you can see all users posts.
+    Left side is user's information that sign in now.
+    (profile_picture, count comments,posts,following users and so on)
+    Right side is timeline like facebook.
+    (write comments, posts, using function like','follow'. and you can see all users posts.)
   
   app/views/posts/edit.html.erb
     Edit posts page.

@@ -12,15 +12,14 @@
 
   app/controllers/application_controller.rb
     sign up, account update [:name(user_name), :avatar(user_profile_picture)]
-```
-```
+    
   app/controllers/posts_controller.rb
     write posts(check authorization before) with image
     delete posts(check authorization before) with image
     edit posts(check authorization before) with image
     (current_user.id, params[:content], params[:image])
-    If users succeed posting, act redirect to  root_path```
-```  
+    If users succeed posting, act redirect to  root_path
+    
   app/controllers/comments_controller.rb
     write comments(check authorization before)
     (params[:content], params[:post_id], current_user.id)
@@ -40,12 +39,14 @@
     unlike user's posts(check authorization before
     (current_user.id, params[:post_id])
     If users succeed 'like', act redirect to  root_path
-  
+```
+```
 --Uploaders
 
    Using S3 Uploaders.
    I had tried to using S3 service in AWS, but i didn't have ability to pay. So I tested 1~2 times and shut down my AWS account.
-
+```
+```
 --Views
 
   app/views/devise/sessions/new.html.erb

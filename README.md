@@ -3,6 +3,11 @@ This is a simple implementation of 'sns' using rubyonrails.
 There is a basic 'sns' function implemented here.
 sign in, sign up, sign out, write comments, posting post, post like, follow, upload image.
 
+
+
+
+
+
 Controllers
 
 app/controllers/application_controller.rb

@@ -42,8 +42,8 @@ sign in, sign up, sign out, write comments, posting post, post like, follow, upl
   
 --Uploaders
 
-    Using S3 Uploaders.
-    I had tried to using S3 service in AWS, but i didn't have ability to pay. So I tested 1~2 times and shut down my AWS account.
+   Using S3 Uploaders.
+   I had tried to using S3 service in AWS, but i didn't have ability to pay. So I tested 1~2 times and shut down my AWS account.
 
 --Views
 

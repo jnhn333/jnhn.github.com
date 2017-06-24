@@ -1,7 +1,7 @@
-**This is a simple implementation of 'sns' using rubyonrails.**
+### This is a simple implementation of 'sns' using rubyonrails.
 
-**There is a basic 'sns' function implemented here.**
-**sign in, sign up, sign out, write comments, posting post, post like, follow, upload image.**
+## There is a basic 'sns' function implemented here.
+# sign in, sign up, sign out, write comments, posting post, post like, follow, upload image.
 
 **using jsp,rails5,materialize**
 
